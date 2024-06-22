@@ -1,0 +1,61 @@
+/*
+	This is the Cascading Style Sheet for my RossBeyer.net pages
+*/
+
+body
+    {
+    color: black;
+    background-color: white;
+    }
+
+.center { text-align: center; } 
+.right  { text-align: right; } 
+
+div.header, p.signature, div.footer
+	{
+	text-align: center;
+	clear: both;
+	}
+
+div.header a
+	{
+	color: black;
+	text-decoration: none;
+	}
+
+dl.main
+	{
+	margin: 2em;
+	}
+
+dl.main dd
+	{
+	margin-bottom: 1em;
+	}
+
+div.poem
+	{
+	float: right;
+	width: 18em;
+	}
+
+div.poem div.prose
+	{
+	text-align: left;
+	}
+
+div.poem div.attribution
+	{
+	text-align: right;
+	}
+
+div.copyright
+	{
+	text-align: right;
+	}
+
+p.back img
+	{
+	border: 0;
+	padding: 2px;
+	}
