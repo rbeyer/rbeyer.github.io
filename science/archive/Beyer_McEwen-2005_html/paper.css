@@ -1,0 +1,52 @@
+h1, h2, h3 { clear: both; }
+div.figure, div.table
+	{
+	margin: 2em 2em;
+	clear: both;
+	}
+div.figure img { float: left; margin: 0ex 1em 2ex 0em; }
+div.figure p, div.table p { clear: none; }
+
+p { clear: both; }
+
+div.table table 
+	{
+	float: left;
+	margin: 2ex 2em;
+	border-bottom: 1px solid black;
+	}
+div.table table caption { font-weight: bold  }
+div.table table tr th
+	{
+	font-weight: normal;
+	padding: 0em 1em;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	}
+div.table table tr td { padding-right: 1em; }
+
+ul#references { 
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 3em;
+    text-indent: -3em;
+    list-style-type: none; }
+
+/* Century Schoolbook font is very similar to Computer Modern Math: cmmi */
+.math
+	{
+	font-family: "Century Schoolbook", serif;
+	font-style: italic;
+	}
+
+
+span.textit	{ font-style: italic  }
+span.textbf	{ font-weight: bold  }
+
+div.title { text-align: center; }
+
+div.title div { margin-top: 2ex; }
+	
+div.title div#authors { font-size: larger; }
+
+div.abstract { margin: 0em 4em; }
